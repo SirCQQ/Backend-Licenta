@@ -7,9 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gatu C. Cristian",
   "license": "ISC",
-  "description": "",
+  "description": "\"Back end for Licenta\"",
   "dependencies": {
     "@hapi/joi": "^17.1.0",
     "bcryptjs": "^2.4.3",
@@ -21,5 +21,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirCQQ/Backend-Licenta.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SirCQQ/Backend-Licenta/issues"
+  },
+  "homepage": "https://github.com/SirCQQ/Backend-Licenta#readme"
 }

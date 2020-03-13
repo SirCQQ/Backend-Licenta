@@ -1,7 +1,7 @@
 const express = require("express")
 const PORT = 3000;
-const router=require("./route modules/auth")
-const post=require("./route modules/post")
+const router=require("./router/auth")
+const post=require("./router/post")
 let app = express()
 const mogoose = require("mongoose");
 const dotenv=require("dotenv");

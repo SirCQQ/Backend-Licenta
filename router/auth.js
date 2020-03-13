@@ -1,9 +1,10 @@
 const express = require('express');
 let router = express.Router();
 const User = require("../model/User");
-const { registerValidation, loginValidation} = require("./validation")
+const { registerValidation, loginValidation} = require("../validation/validation")
 const bcrypt = require("bcryptjs")
 const jwt=require("jsonwebtoken")
+
 router.get("/", (req, res) => {
     res.send("This is the route");
     res.end();

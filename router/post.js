@@ -1,6 +1,6 @@
 const express = require('express');
 let router = express.Router();
-const verify = require("./verify")
+const verify = require("../validation/verify")
 
 
 router.get("/",verify,(req,res)=>{
